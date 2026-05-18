@@ -32,7 +32,7 @@ Each app that uses web3modal requires a `VITE_WALLETCONNECT_PROJECT_ID` in its `
 
 ## Smart contract
 
-`nft-display-admin/smart-contract.sol` — deployed to Ethereum (address in `packages/contracts/src/address.ts`).
+`smart-contract.sol` — deployed to Ethereum (address in `packages/contracts/src/address.ts`).
 
 - 95% of rent goes to the display owner
 - 5% stays in the contract (withdrawn by contract owner)
