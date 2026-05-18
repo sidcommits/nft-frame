@@ -10,7 +10,7 @@ export function Nav() {
         <li><a href="#contract">Contract</a></li>
       </ul>
       <a
-        href="https://github.com/YOUR_USERNAME/nft-frame"
+        href="https://github.com/sidcommits/nft-frame"
         target="_blank"
         rel="noreferrer"
         className={styles.cta}
