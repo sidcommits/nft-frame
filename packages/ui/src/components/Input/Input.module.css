@@ -1,0 +1,21 @@
+.wrap { display: flex; flex-direction: column; gap: 8px; }
+.label {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--color-sub);
+}
+.input {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  background: #080808;
+  border: 1px solid var(--color-border);
+  color: var(--color-white);
+  padding: 12px 16px;
+  outline: none;
+  width: 100%;
+  transition: border-color 0.15s;
+}
+.input:focus { border-color: var(--color-accent); }
+.input::placeholder { color: var(--color-border); }

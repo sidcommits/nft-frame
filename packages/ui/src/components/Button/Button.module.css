@@ -1,0 +1,20 @@
+.btn {
+  font-family: var(--font-display);
+  font-size: 18px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 14px 32px;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  display: inline-block;
+}
+.btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.primary { background: var(--color-accent); color: var(--color-bg); }
+.ghost {
+  background: transparent;
+  border: 1px solid var(--color-border);
+  color: var(--color-body);
+}
+.ghost:hover:not(:disabled) { border-color: var(--color-accent); color: var(--color-accent); }
+.full { width: 100%; text-align: center; }

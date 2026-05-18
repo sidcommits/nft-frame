@@ -1,0 +1,14 @@
+.btn {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background: var(--color-accent);
+  color: var(--color-bg);
+  border: none;
+  padding: 11px 20px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  font-weight: 500;
+}
+.btn:hover { opacity: 0.85; }

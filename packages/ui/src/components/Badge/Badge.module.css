@@ -1,0 +1,16 @@
+.badge {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  border-radius: 2px;
+  border: 1px solid;
+}
+.default { color: var(--color-sub); border-color: var(--color-border); }
+.live {
+  color: var(--color-accent);
+  border-color: rgba(184,255,0,0.3);
+  background: rgba(184,255,0,0.05);
+}
+.vacant { color: var(--color-sub); border-color: var(--color-border); }
