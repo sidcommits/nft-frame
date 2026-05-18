@@ -1,0 +1,15 @@
+{
+  "name": "nft-frame",
+  "version": "0.0.1",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:landing": "npm -w apps/landing run dev",
+    "dev:admin":   "npm -w apps/admin run dev",
+    "dev:client":  "npm -w apps/client run dev",
+    "dev:user":    "npm -w apps/user run dev"
+  }
+}
